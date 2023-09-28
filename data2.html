@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Информация</a></li>
+          <li><a href="data1.html">Таблицы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form class="generated-form"  method="GET" action="submit.php"  target="_self">
+      <fieldset>
+        <legend> Student:: </legend>
+         <label for="text">Фамилия:</label><br>
+         <input type="text" id="text" name="text"><br>
+         <label for="text">Имя:</label><br>
+         <input type="text" id="text" name="text"><br>
+         <label for="password">Пароль:</label><br>
+         <input type="password" id="password" name="password"><br>
+         <label for="text">Адрес:</label><br>
+         <input type="text" id="text" name="text"><br>
+         <label for="number">Количество:</label><br>
+         <input type="number" id="number" name="number"><br>
+         <label for="typ1">Тип:</label><br>
+         <select id="typ1">
+            <option value="one">Куриные</option>
+            <option value="two">Гусиные</option>
+            <option value="three">Утиные</option>
+         </select>
+         <label for="typ2"></label>
+         <select id="typ2">
+            <option value="one">Отборные</option>
+            <option value="two">Чистые</option>
+            <option value="three">Хорошие</option>
+         </select> <br><br>
+         <label for="text">Доставка:</label><br>
+         <input type="radio" id="pochtoy" name="pochtoy" value="pochtoy">
+         <label for="pochtoy">Почтой</label><br>
+         <input type="radio" id="Electronno" name="Electronno" value="Electronno">
+         <label for="Electronno">Электронно</label><br>
+         <input type="radio" id="Kyrier" name="Kyrier" value="Kyrier">
+         <label for="Kyrier">Курьером</label><br><br>
+         <input type="checkbox" id="vibor" name="vibor" value="YesOrNo">
+         <label for="vibor"> Требуется накладная</label><br>
+         <textarea id="w3codeGenText" name="textarea" rows="3" cols="50"></textarea><br><br>
+         <input type="submit" value="Заказать">
+         <input type="submit" value="Отменить"><br><br>
+      </fieldset>
+      </form>
+
+      <br>
+
+      <form class="generated-form"  method="GET" action="submit.php"  target="_self">
+        <fieldset>
+          <legend> Student:: </legend>
+           <label for="text">Логин:</label><br>
+           <input type="text" id="text" name="text"><br>
+           <label for="password">Пароль:</label><br>
+           <input type="password" id="password" name="password"><br>
+           <label for="url">Url-адрес сайта:</label><br>
+           <input type="url" id="url" name="url"><br>
+           <label for="text">Название сайта:</label><br>
+           <input type="text" id="text" name="text"><br>
+           <label for="text">Описание сайта:</label><br>
+           <textarea id="w3codeGenText" name="textarea" rows="3" cols="50"></textarea><br><br>
+           <label for="tems">Тема сайта::</label><br>
+           <select id="tems">
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
+              <option value="night">Night</option>
+           </select> <br><br>
+           <label for="file">Файл:</label><br>
+           <input type="file" id="file" name="file"><br><br>
+           <input type="submit" value="Очистить">
+           <input type="submit" value="Отправить"><br><br>
+        </fieldset>
+        </form>
+  </body>
+</html>
